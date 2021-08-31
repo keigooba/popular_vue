@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import HelloNuxt from './components/HelloNuxt.vue'
 
 export default {
