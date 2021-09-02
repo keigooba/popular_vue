@@ -22,3 +22,6 @@ all: deps
 # 	./$(BINARY_NAME)
 deps:
 	$(NPMCMD) @vue/cli
+	$(NPMCMD) npm install --save vue-router
+	$(NPMCMD) npm install --save vuex
+	yarn add @chakra-ui/vue @emotion/css
