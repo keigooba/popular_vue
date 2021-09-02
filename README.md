@@ -42,7 +42,7 @@ docker-compose exec node bash
 1. Go1.16.2
 
 フロントエンド
-1. Vue
+1. Vue2
 2. chakra-ui
 
 インフラ
