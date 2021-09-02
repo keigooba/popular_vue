@@ -1,4 +1,4 @@
-# popular_SPA
+# popular_vue
 
 [popular](https://github.com/keigooba/popular)をVueでSPA化<br />
 コンポーネント分割はatomic designを採用
