@@ -27,7 +27,7 @@ docker-compose build
 ```
 3. なぜか依存関係でエラーが起きるので、npmを再インストール
 ```
-rm -rf node_modules package-lock.json && npm install
+docker-compose run --rm node sh -c "cd popular && rm -rf node_modules package-lock.json && npm install"
 ```
 4. docker起動(port:3000が必要)
 ```
