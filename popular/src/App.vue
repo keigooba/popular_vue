@@ -1,14 +1,15 @@
 <template>
-  <div id="app">
+  <v-app id="app">
     <Header />
     <CBox minH="700px" maxW="1140px" p="10" m="auto">
     <router-view />
     </CBox>
     <Footer />
-  </div>
+  </v-app>
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import { CBox } from "@chakra-ui/vue"
 
 import Header from './components/organisms/Header'
@@ -19,6 +20,12 @@ export default {
     Header,
     Footer,
     CBox,
+  },
+  created() {
+    this.fetchContactList()
+  },
+  methods: {
+    ...mapActions(['fetchContactList'])
   }
 }
 </script>
@@ -30,18 +37,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>

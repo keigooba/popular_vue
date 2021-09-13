@@ -10,13 +10,13 @@
       :p="['1', '2']"
     >
       <CFlex fontWeight="900">
-        <CLink as="router-link" to="/" color="white" onfocus="this.blur();">
+        <CLink as="router-link" to="/" color="white !important" onfocus="this.blur();" style="">
           <i class="far fa-image"></i>
           popular
         </CLink>
       </CFlex>
       <CFlex ml="auto">
-        <CLink as="router-link" to="/home" color="white" onfocus="this.blur();">
+        <CLink as="router-link" to="/home" color="white !important" onfocus="this.blur();">
         <i class="fab fa-twitter-square"></i>
         ログイン
         </CLink>

@@ -8,8 +8,8 @@
 					position="absolute"
 					fontWeight="bold"
 					fontSize="2xl"
-					top="130px"
-					left="55px"
+					top="128px"
+					left="45px"
         >
         これで僕も人気者！！
         </CText>
@@ -82,11 +82,11 @@ export default {
 }
 .order2 {
   order: 2;
+  margin-left: 1rem;
 	margin-right: 2.5rem;
 }
 .order {
   order: 1;
-	margin-right: 4rem;
   width: 500px;
 }
 .router-link {
