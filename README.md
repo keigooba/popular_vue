@@ -63,5 +63,5 @@ firebase deploy
 2. Cloud Firestore(NoSQL)
 
 ## 学習記録
-
 1. Vue.js入門決定版！jQuery を使わない Web 開発 - 導入からアプリケーション開発まで体系的に動画で学ぶ (https://www.udemy.com/share/101YM03@7bucuxRdvgmiZCTaHVXa5Qc1WAHJufx4cGy4GrBzmC42FUWz0289DWrfIK5OWzRzIA==/ ) 8月16日~8月29日修了
+2. Vue.js + Firebaseで作るシングルページアプリケーション(https://www.udemy.com/share/1021GS3@5GVOsY91uSCox4EjacCSTAm55Q5gbbSZ7bvgrTa20Y6eXqZu6HdBQXaaU3QRViHYpA==/) 9月5日~9月13日 firebase作成部分のみ
