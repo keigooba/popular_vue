@@ -3,14 +3,13 @@
 [popular](https://github.com/keigooba/popular)をVueでSPA化<br />
 コンポーネント分割はatomic designを採用
 
-サイト URL:
+サイト URL: https://popular-vue.web.app/
 
 ## 概要
 
 概要は[popular](https://github.com/keigooba/popular)に記載
 
 ## 初期設定
-
 
 ## 開発環境
 docker version 20.10.6が必要。なければ下記URLからダウンロード。<br />
@@ -36,6 +35,16 @@ docker-compose up -d
 5. dockerコンテナに入る
 ```
 docker-compose exec node bash
+```
+
+機能追加時は下記のフローでデプロイする
+1.追加したファイルをコンパイル
+```
+npm run build
+```
+2.firebaseにデプロイ
+```
+firebase deploy
 ```
 
 ## 機能
